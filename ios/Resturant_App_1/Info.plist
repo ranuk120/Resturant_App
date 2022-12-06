@@ -53,16 +53,9 @@
 	<false/>
 	<key>UIAppFonts</key>
 	<array>
-		<string>Heebo-Black.ttf</string>
-		<string>Heebo-Bold.ttf</string>
-		<string>Heebo-ExtraBold.ttf</string>
-		<string>Heebo-ExtraLight.ttf</string>
-		<string>Heebo-Light.ttf</string>
-		<string>Heebo-Medium.ttf</string>
-		<string>Heebo-Regular.ttf</string>
-		<string>Heebo-SemiBold.ttf</string>
-		<string>Heebo-Thin.ttf</string>
-		<string>IslandMoments-Regular.ttf</string>
+		<string>Rubik-Bold.ttf</string>
+		<string>Rubik-Light.ttf</string>
+		<string>Rubik-Medium.ttf</string>
 	</array>
 </dict>
 </plist>

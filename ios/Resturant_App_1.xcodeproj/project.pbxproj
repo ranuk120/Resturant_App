@@ -14,16 +14,9 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-Resturant_App_1-Resturant_App_1Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Resturant_App_1-Resturant_App_1Tests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		1625390D653A4F15BEA71B8B /* Heebo-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AADD9801335D437599283082 /* Heebo-Black.ttf */; };
-		35FE3AA78633470EB3F6894D /* Heebo-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01694B6AD9834C34A575DE57 /* Heebo-Bold.ttf */; };
-		66AC9E9705C441109FE67D9F /* Heebo-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9380B96EAC834D3CBFC3E1D5 /* Heebo-ExtraBold.ttf */; };
-		686575ADBD15418DBA517719 /* Heebo-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 03F7DBC3CC4E4F37B07ED67D /* Heebo-ExtraLight.ttf */; };
-		5C9682A1A6DD4FFA90DBDAFE /* Heebo-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C5EB41A7675A4A1FBC0F6C0C /* Heebo-Light.ttf */; };
-		1E09620E8F8049AC88CAE030 /* Heebo-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 135E10F5F18747378BD7E9B0 /* Heebo-Medium.ttf */; };
-		7ADD901E192447488933C347 /* Heebo-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 27DFE893E3804EFFA4D8FFD8 /* Heebo-Regular.ttf */; };
-		8000CF26401F4DFA81CA2026 /* Heebo-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FB3A689CAB9444A1B92C2E2F /* Heebo-SemiBold.ttf */; };
-		89A13F54DAA5438FAEAF38E2 /* Heebo-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2B32DD0D58784EC49DF1CC09 /* Heebo-Thin.ttf */; };
-		008B5111999D44289D0F460C /* IslandMoments-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2600D9730DC740EBAF2953A7 /* IslandMoments-Regular.ttf */; };
+		0D702FBEB8BD430EA1FFBCF3 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 322263AA0F844EF19DCD8C20 /* Rubik-Bold.ttf */; };
+		88320E8377BF4F95A82244A5 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C02AC50529549CA881E09AF /* Rubik-Light.ttf */; };
+		F0C7FCC329324D1F99B2D46C /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2B2A6DB01514DA2B9BDB984 /* Rubik-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,16 +47,9 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Resturant_App_1/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Resturant_App_1-Resturant_App_1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Resturant_App_1-Resturant_App_1Tests.release.xcconfig"; path = "Target Support Files/Pods-Resturant_App_1-Resturant_App_1Tests/Pods-Resturant_App_1-Resturant_App_1Tests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		AADD9801335D437599283082 /* Heebo-Black.ttf */ = {isa = PBXFileReference; name = "Heebo-Black.ttf"; path = "../assets/fonts/Heebo-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		01694B6AD9834C34A575DE57 /* Heebo-Bold.ttf */ = {isa = PBXFileReference; name = "Heebo-Bold.ttf"; path = "../assets/fonts/Heebo-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		9380B96EAC834D3CBFC3E1D5 /* Heebo-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Heebo-ExtraBold.ttf"; path = "../assets/fonts/Heebo-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		03F7DBC3CC4E4F37B07ED67D /* Heebo-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Heebo-ExtraLight.ttf"; path = "../assets/fonts/Heebo-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		C5EB41A7675A4A1FBC0F6C0C /* Heebo-Light.ttf */ = {isa = PBXFileReference; name = "Heebo-Light.ttf"; path = "../assets/fonts/Heebo-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		135E10F5F18747378BD7E9B0 /* Heebo-Medium.ttf */ = {isa = PBXFileReference; name = "Heebo-Medium.ttf"; path = "../assets/fonts/Heebo-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		27DFE893E3804EFFA4D8FFD8 /* Heebo-Regular.ttf */ = {isa = PBXFileReference; name = "Heebo-Regular.ttf"; path = "../assets/fonts/Heebo-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		FB3A689CAB9444A1B92C2E2F /* Heebo-SemiBold.ttf */ = {isa = PBXFileReference; name = "Heebo-SemiBold.ttf"; path = "../assets/fonts/Heebo-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2B32DD0D58784EC49DF1CC09 /* Heebo-Thin.ttf */ = {isa = PBXFileReference; name = "Heebo-Thin.ttf"; path = "../assets/fonts/Heebo-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
-		2600D9730DC740EBAF2953A7 /* IslandMoments-Regular.ttf */ = {isa = PBXFileReference; name = "IslandMoments-Regular.ttf"; path = "../assets/fonts/IslandMoments-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		322263AA0F844EF19DCD8C20 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; name = "Rubik-Bold.ttf"; path = "../assets/fonts/Rubik-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4C02AC50529549CA881E09AF /* Rubik-Light.ttf */ = {isa = PBXFileReference; name = "Rubik-Light.ttf"; path = "../assets/fonts/Rubik-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E2B2A6DB01514DA2B9BDB984 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; name = "Rubik-Medium.ttf"; path = "../assets/fonts/Rubik-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,16 +158,9 @@
 		2D6DDE3D7E274B25B953FBBC /* Resources */ = {
 			isa = "PBXGroup";
 			children = (
-				AADD9801335D437599283082 /* Heebo-Black.ttf */,
-				01694B6AD9834C34A575DE57 /* Heebo-Bold.ttf */,
-				9380B96EAC834D3CBFC3E1D5 /* Heebo-ExtraBold.ttf */,
-				03F7DBC3CC4E4F37B07ED67D /* Heebo-ExtraLight.ttf */,
-				C5EB41A7675A4A1FBC0F6C0C /* Heebo-Light.ttf */,
-				135E10F5F18747378BD7E9B0 /* Heebo-Medium.ttf */,
-				27DFE893E3804EFFA4D8FFD8 /* Heebo-Regular.ttf */,
-				FB3A689CAB9444A1B92C2E2F /* Heebo-SemiBold.ttf */,
-				2B32DD0D58784EC49DF1CC09 /* Heebo-Thin.ttf */,
-				2600D9730DC740EBAF2953A7 /* IslandMoments-Regular.ttf */,
+				322263AA0F844EF19DCD8C20 /* Rubik-Bold.ttf */,
+				4C02AC50529549CA881E09AF /* Rubik-Light.ttf */,
+				E2B2A6DB01514DA2B9BDB984 /* Rubik-Medium.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -283,16 +262,9 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				1625390D653A4F15BEA71B8B /* Heebo-Black.ttf in Resources */,
-				35FE3AA78633470EB3F6894D /* Heebo-Bold.ttf in Resources */,
-				66AC9E9705C441109FE67D9F /* Heebo-ExtraBold.ttf in Resources */,
-				686575ADBD15418DBA517719 /* Heebo-ExtraLight.ttf in Resources */,
-				5C9682A1A6DD4FFA90DBDAFE /* Heebo-Light.ttf in Resources */,
-				1E09620E8F8049AC88CAE030 /* Heebo-Medium.ttf in Resources */,
-				7ADD901E192447488933C347 /* Heebo-Regular.ttf in Resources */,
-				8000CF26401F4DFA81CA2026 /* Heebo-SemiBold.ttf in Resources */,
-				89A13F54DAA5438FAEAF38E2 /* Heebo-Thin.ttf in Resources */,
-				008B5111999D44289D0F460C /* IslandMoments-Regular.ttf in Resources */,
+				0D702FBEB8BD430EA1FFBCF3 /* Rubik-Bold.ttf in Resources */,
+				88320E8377BF4F95A82244A5 /* Rubik-Light.ttf in Resources */,
+				F0C7FCC329324D1F99B2D46C /* Rubik-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
