@@ -14,7 +14,7 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
 import CommonStyles from '../../Common/CommonStyles';
 import {ActionButton} from '../../Components/ActionButton';
-import {navigationrouts} from '../../Common/enum';
+import {navigationrouts} from '../../Common/Enum';
 import {GoogleLogo} from '../Icons/GoogleLogo';
 import {FbLogo} from '../Icons/FbLogo';
 import {LoginButtonGroup} from '../../Components/LoginButtonGroup';
