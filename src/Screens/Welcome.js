@@ -18,7 +18,6 @@ import {navigationrouts} from '../../Common/Enum';
 import {GoogleLogo} from '../Icons/GoogleLogo';
 import {FbLogo} from '../Icons/FbLogo';
 import {LoginButtonGroup} from '../../Components/LoginButtonGroup';
-import SignUp from './SignUp';
 
 const Welcome = ({navigation}) => {
   return (

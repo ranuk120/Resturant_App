@@ -19,22 +19,23 @@ function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName={'Drawer'}>
-        <Stack.Screen
+        {/* <Stack.Screen
           name={'Splash'}
           component={Splash}
           options={{headerShown: false}}
-        />
+        /> */}
+
         <Stack.Screen
           name={'Drawer'}
           component={DrawerNavigation}
           options={{headerShown: false}}
         />
 
-        <Stack.Screen
+        {/* <Stack.Screen
           name={'SignUp'}
           component={SignUp}
           options={{headerShown: false}}
-        />
+        /> */}
 
         <Stack.Screen
           name={'Tab_Home'}

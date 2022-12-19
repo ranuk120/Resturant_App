@@ -21,16 +21,19 @@ import {CustomTextInput} from '../../Components/CustomTextInput';
 import {LoginButtonGroup} from '../../Components/LoginButtonGroup';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
-const SignUp = ({navigation}) => {
+const SignIn = ({navigation}) => {
   const [fullName, setFullName] = React.useState('');
   const [Email, setEmail] = React.useState('');
   const [Password, setPassword] = React.useState('');
 
-  const storeData = async value => {
+  const getData = async () => {
     try {
-      await AsyncStorage.setItem('@storage_Key', value);
+      const value = await AsyncStorage.getItem('@storage_Key');
+      if (value !== null) {
+        // value previously stored
+      }
     } catch (e) {
-      // saving error
+      // error reading value
     }
   };
 
@@ -55,8 +58,7 @@ const SignUp = ({navigation}) => {
       />
 
       <ActionButton
-        title={'Store Data'}
-        onPressBtn={() => storeData('Hello')}
+        title={'SIGN IN'}
         customStyle={styles.btnStyle}
         customTextStyle={styles.btnText}
       />
@@ -90,4 +92,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default SignUp;
+export default SignIn;

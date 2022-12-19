@@ -9,9 +9,21 @@ const Tab = createBottomTabNavigator();
 function MainTabNavigation() {
   return (
     <Tab.Navigator>
-      <Tab.Screen name="Welcome" component={Welcome} />
-      <Tab.Screen name="SignUp" component={SignUp} />
-      <Tab.Screen name="Splash" component={Splash} />
+      <Tab.Screen
+        name="Welcome"
+        component={Welcome}
+        options={{headerShown: false}}
+      />
+      <Tab.Screen
+        name="SignUp"
+        component={SignUp}
+        options={{headerShown: false}}
+      />
+      <Tab.Screen
+        name="Splash"
+        component={Splash}
+        options={{headerShown: false}}
+      />
     </Tab.Navigator>
   );
 }
