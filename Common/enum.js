@@ -3,4 +3,5 @@ export const navigationrouts = {
   WELCOME: 'Welcome',
   SIGNUP: 'Signup',
   Tab_Home: 'Tab_Home',
+  HOME: 'Home',
 };

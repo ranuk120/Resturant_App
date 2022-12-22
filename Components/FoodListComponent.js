@@ -1,7 +1,7 @@
 import React from 'react';
 import {TouchableOpacity, Text, StyleSheet, Image} from 'react-native';
-import assets from '../../assets';
-import CommonStyles from '../../Common/CommonStyles';
+import assets from '../assets';
+import CommonStyles from '../Common/CommonStyles';
 
 export const FoodListComponent = ({
   title,
@@ -13,7 +13,7 @@ export const FoodListComponent = ({
 }) => {
   return (
     <TouchableOpacity
-      style={[styles.itemStyle, customTextStyle]}
+      style={[styles.itemStyle, customStyle]}
       onPress={onPressBtn}
     >
       <Image style={styles.imageStyle} source={image} />
@@ -36,7 +36,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderRadius: 100,
     margin: 8,
-    backgroundColor: CommonStyles.colors.primary,
   },
 
   imageStyle: {
